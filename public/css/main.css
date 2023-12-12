@@ -60,11 +60,38 @@ body {
 #Continuamos img{
     margin-top: 20px;
     border-radius: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 20px;
     
 }
 
+.figuras{
+    margin-left: 150px;
+    display: flex;
+}
+
+.abre0{
+    overflow: hidden;
+    opacity: 0;
+    margin-top: -30px;
+    transition: .2s;
+}
+
+.abre0.Ativo{
+    
+    opacity: 100;
+    margin-top: 30px;
+    
+}
+
+@media screen and (max-width: 768px)  {
+    .figuras{
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 40px;
+    }
+
+    
+}
 
 
 #Continuamos2{
@@ -135,4 +162,24 @@ body {
     object-fit: cover;
     border-radius: 50px;
     margin-top: 50px;
+}
+
+.abre3{
+    overflow: hidden;
+    opacity: 0;
+    margin-bottom: -30px;
+    transition: .2s;
+}
+.abre3.Ativo{
+    margin-top: 40px;
+    opacity: 100%;
+}
+
+#amor{
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    margin-top: 50px;
+    padding: 64px 80px;
+    text-align: center;
 }

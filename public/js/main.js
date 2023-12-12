@@ -1,3 +1,9 @@
+function Abrir0(){
+    let textoAbre0 = document.querySelector('.abre0')
+    textoAbre0.classList.toggle('Ativo')
+}
+
+
 
 function Abrir(){
     let textoAbre = document.querySelector('.abre')
