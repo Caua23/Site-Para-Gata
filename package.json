@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "<p align=\"center\">\r <img loading=\"lazy\" src=\"http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge\"/>\r </p>",
   "main": "Server.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node Server.js"
+    "start": "node Server.js",
+    "dev": "nodemon"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vargas",
   "license": "ISC",
   "dependencies": {
     "node": "19",
