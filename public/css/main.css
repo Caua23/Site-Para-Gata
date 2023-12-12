@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(31, 31, 31);
+    font-family: 'Grandiflora One', 'Montserrat';
+    
+}
+
+
+
+#inicio{
+    color: white;
+    text-align: center;
+    margin-top: 230px;
+    font-family: 'Grandiflora One';
+}
+
+#inicio h1{
+    font-size: 45pt;
+}
+
+#inicio h2{
+    font-size: 20pt;
+}
+
+#sobre{
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    margin-top: 300px;
+    margin-bottom: 165px;
+    padding: 64px 80px;
+    text-align: center;
+}
+
+#sobre p{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#Continuamos{
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    padding: 64px 80px;
+    text-align: center;
+}
+
+#Continuamos h2{
+    font-family: 'Grandiflora One';
+    margin-bottom: 20px;
+}
+
+
+#Continuamos img{
+    margin-top: 20px;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+
+
+#Continuamos2{
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    padding: 64px 80px;
+    text-align: center;
+}
+
+#Continuamos2 h2{
+    font-family: 'Grandiflora One';
+    margin-bottom: 20px;
+}
+
+
+#momentos{
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    padding: 64px 80px;
+    text-align: center;
+}
+
+
+#momentos .nos{
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+.abre{
+    overflow: hidden;
+    opacity: 0;
+    margin-left: -60px;
+    transition: .2s;
+}
+
+.abre.Ativo{
+    margin: 0;
+    opacity: 100%;
+}
+
+.figuras{
+    display: flex;
+}
+
+.nos2{
+    transform: rotate(90deg);
+    border-radius: 70px;
+}
+
+.abre2{
+    overflow: hidden;
+    opacity: 0;
+    margin-top: -30px;
+    transition: .2s;
+}
+
+.abre2.Ativo{
+    margin: 0;
+    opacity: 100%;
+}
+
+
+.nos3{
+    object-fit: cover;
+    border-radius: 50px;
+    margin-top: 50px;
+}
